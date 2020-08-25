@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { IProduct } from '../store/modules/cart/types';
 import api from '../services/api';
 import { addProductToCart } from '../store/modules/cart/actions';

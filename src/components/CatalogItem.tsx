@@ -30,7 +30,7 @@ const CatalogItem: React.FC<CatalogItemProps> = ({ product }) => {
         type="button"
         onClick={handleAddProductToCart}
       >
-        Adicionar
+        Comprar
       </button>
 
       {hasFailedStockCheck && <span style={{ color: 'red' }}>Falta de estoque</span>}
